@@ -1,0 +1,21 @@
+    # Ignorar la carpeta de módulos de Node
+    node_modules/
+
+    # Ignorar el archivo de variables de entorno
+    .env
+
+    # Archivo de bloqueo de dependencias (opcional, pero buena práctica si no quieres conflictos)
+    # package-lock.json
+
+    # Ignorar carpetas y archivos de VS Code (si usas VS Code)
+    .vscode/
+
+    # Ignorar cualquier archivo de log
+    *.log
+    npm-debug.log*
+    yarn-debug.log*
+    yarn-error.log*
+
+    # Ignorar archivos de caché u otros archivos generados
+    .DS_Store
+    
